@@ -1,13 +1,13 @@
  
- ​name​: ​Generate Datas 
+ ​name​: ​Cobrinha
   
- ​on​: 
+ ​on​:
  ​  ​schedule​: ​#​ execute every 12 hours 
  ​    - ​cron​: ​"​* */12 * * *​" 
  ​  ​workflow_dispatch​: 
   
- ​jobs​: 
- ​  ​build​: 
+ ​jobs​:
+ ​  ​build​:
  ​    ​name​: ​Jobs to update datas 
  ​    ​runs-on​: ​ubuntu-latest 
  ​    ​steps​: 
